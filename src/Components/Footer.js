@@ -5,7 +5,7 @@ function Footer() {
     return (
         <>
             <div className="container-fluid footer">
-                <p className='d-flex align-items-center justify-content-center text-center'> <CopyrightIcon/> CopyRight. All Right are Reseverd. ThapaTechnical 2021.</p>
+                <p className='d-flex align-items-center justify-content-center text-center'> <CopyrightIcon/> CopyRight. All Right are Reseverd. Kunal Jethva 2023.</p>
             </div>
         </>
     )
