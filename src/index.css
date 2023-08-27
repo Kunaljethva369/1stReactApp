@@ -124,6 +124,12 @@ body {
     bottom: 10px;
 }
 
+#moon,#sun{
+    position: fixed;
+    right: 20px;
+    top: 15px;
+}
+
 @keyframes imgupdown {
     0% {
         transform: translateY(10px);
@@ -170,7 +176,7 @@ body {
         margin-right: 4px;
         border: none;
     }
-    .navbar-toggler-icon {
+    .navbar-toggler{
         background: black;
     }
     .home {
@@ -178,6 +184,11 @@ body {
     }
     .leftContent {
         margin-top: 1.5rem;
+    }
+    #moon,#sun{
+        position: fixed;
+        right: 15px;
+        top: 15px;
     }
     .form {
         width: 100%;
@@ -210,7 +221,7 @@ body {
         margin-right: 4px;
         border: none;
     }
-    .navbar-toggler-icon {
+    .navbar-toggler{
         background: black;
     }
     .home {
@@ -222,6 +233,11 @@ body {
     }
     .leftContent {
         margin-top: 1.5rem;
+    }
+    #moon,#sun{
+        position: fixed;
+        right: 0px;
+        top: 15px;
     }
     .form {
         width: 100%;
@@ -253,13 +269,21 @@ body {
         text-align: center;
         color: black !important;
     }
+    #moon,#sun{
+        position: fixed;
+        right: 0px;
+        top: 15px;
+    }
     .navbar-toggler {
         margin-left: auto;
         margin-right: 4px;
         border: none !important;
     }
-    .navbar-toggler-icon {
+    .navbar-toggler{
         background: black;
+    }
+    .navbar-collapse,.navbar-toggler{
+        margin-right: 1.5rem;
     }
     .home {
         display: flex;
