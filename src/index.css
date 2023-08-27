@@ -154,16 +154,10 @@ body {
         text-align: center;
         color: black !important;
     }
-    .navbar-toggler{
-        background-color: black;
-    }
     .navbar-toggler {
         margin-left: auto;
         margin-right: 4px;
         border: none;
-    }
-    .navbar-toggler-icon {
-        background: black;
     }
 }
 
@@ -196,6 +190,9 @@ body {
         position: fixed;
         right: 20px;
         top: 15px;
+    }
+    .navbar-collapse,.navbar-toggler{
+        margin-right: 1.5rem;
     }
     .form {
         width: 100%;
@@ -245,6 +242,9 @@ body {
         position: fixed;
         right: 45px;
         top: 15px;
+    }
+    .navbar-collapse,.navbar-toggler{
+        margin-right: 1.5rem;
     }
     .form {
         width: 100%;
