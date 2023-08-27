@@ -26,6 +26,10 @@ body {
     border-bottom: 1px solid black;
 }
 
+.website{
+    min-height: 100vh;
+}
+
 .website, .container-fluid {
     background-color: var(--primary-color) !important;
     color: var(--secondary-color);
@@ -126,7 +130,7 @@ body {
 
 #moon,#sun{
     position: fixed;
-    right: 20px;
+    right: 40px;
     top: 15px;
 }
 
@@ -149,6 +153,9 @@ body {
     .nav-link {
         text-align: center;
         color: black !important;
+    }
+    .navbar-toggler{
+        background-color: black;
     }
     .navbar-toggler {
         margin-left: auto;
@@ -187,7 +194,7 @@ body {
     }
     #moon,#sun{
         position: fixed;
-        right: 15px;
+        right: 20px;
         top: 15px;
     }
     .form {
@@ -236,7 +243,7 @@ body {
     }
     #moon,#sun{
         position: fixed;
-        right: 0px;
+        right: 45px;
         top: 15px;
     }
     .form {
@@ -271,7 +278,7 @@ body {
     }
     #moon,#sun{
         position: fixed;
-        right: 0px;
+        right: 8px;
         top: 15px;
     }
     .navbar-toggler {
